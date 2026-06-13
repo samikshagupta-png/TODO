@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Roboto,arial;
+    background-color: #9dd1f1;
+}
+.hero{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.worklist input{
+    min-height: 50px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.worklist{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.onetask{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.Text{
+    color: gray;
+    border: 1px solid white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    width:200px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.done{
+    height: 33px;
+    background-color: rgb(85, 190, 85);
+}
+.recenttask ul li {
+  margin-bottom: 15px;   /* adds gap between tasks */
+}
+/* General button styling */
+button {
+  transition: all 0.3s ease; /* smooth animation */
+  cursor: pointer;
+}
+
+/* Login/Logout button hover */
+.btn:hover {
+  background-color: #ffffff;
+  color: #031927;
+  border: 1px solid #031927;
+  transform: scale(1.05); /* subtle zoom */
+}
+
+/* Create button hover */
+.worklist button:hover {
+  background-color: #ff4d4d; /* brighter red */
+  color: white;
+  transform: translateY(-2px); /* lift effect */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Complete button hover */
+.done:hover {
+  background-color: #4CAF50; /* deeper green */
+  color: white;
+  transform: scale(1.1); /* pop effect */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}

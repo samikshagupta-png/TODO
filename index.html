@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header style="background-color: #031927; color:white;display: flex; flex-wrap: wrap;justify-content: space-between;min-height: 60px;">
+           <h1 id="welcome">Welcome </h1>
+            <button class="btn" style="border: 1px solid white; border-radius: 1.5rem;width: 50px;height:30px;">login</button>
+            
+        </header>
+        <div style="background-color: #c8e0f4; display: flex;flex-wrap: wrap;justify-content: space-between; align-items: center;height: 37px;">
+            <p><big>Create your to-do list now</big></p>
+            <select id="mode">
+                <option value="light" selected>light</option>
+                <option value="dark">dark</option>
+            </select>
+        </div>
+        <div class="hero">
+            <br>
+            <form class="worklist">
+                <input type="text" id="task" name="task" placeholder="Add your task">
+                <button type="submit" style="width: 60px;background-color: #BA1200;"><b>create</b></button>
+            </form>
+            <br>
+            <div class="recenttask">
+                <p style="color: white;"><b><u>recent-task:</u></b></p>
+                <br>
+                <ul>
+                    
+                </ul>
+
+            </div>
+
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

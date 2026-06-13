@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: roboto,arial;
+    color:white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: black;
+    color: white;
+    
+    height: 700px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .hero svg{
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+} */
+.box{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.loginbox input{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    background-color: black;
+}
